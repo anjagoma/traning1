@@ -1,0 +1,18 @@
+
+ℹ️ You can download Git here: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
+
+
+git --version
+
+git config --global user.name "Andres G"
+git config --global user.email "andres@gmail.com"
+
+git init
+
+git status
+
+git add fileXX.ZZ
+
+git commit -m "First Commit"
