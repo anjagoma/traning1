@@ -16,3 +16,5 @@ git status
 git add fileXX.ZZ
 
 git commit -m "First Commit"
+
+git log
