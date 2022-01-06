@@ -7,10 +7,11 @@
   tasks:
     - name: Latest Apache version installed
       yum:
-        name: httpd
-        state: latest
+       name: httpd
+       state: latest
+    #comment
     - name: Apache enabled and running
       service:
-        name: httpd
-        enabled: true
-        state: started 
+       name: httpd
+       enabled: true
+       state: started
