@@ -25,6 +25,17 @@ $ git checkout 264afd3ae3d89aad3d21af237ca2dbde8082e368
 To go to latest version:
 $ git checkout master
 
+
+Ignorar:
+touch .gitignore
+nano .gitignore  (this file contains the list of files.  One line per file to be ignored)
+
+You can ignore entire directories, just by including their paths and putting a / on the end:
+node_modules/
+logs/
+
+
+
 $ git log
 commit 542aa29d4bc9fe68db82a8929ea3836c603f3a9b (HEAD -> master)
 Author: Andres G <andres@gmail.com>
