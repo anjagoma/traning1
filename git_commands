@@ -18,3 +18,22 @@ git add fileXX.ZZ
 git commit -m "First Commit"
 
 git log
+
+To go to older version:
+$ git checkout 264afd3ae3d89aad3d21af237ca2dbde8082e368
+
+To go to latest version:
+$ git checkout master
+
+$ git log
+commit 542aa29d4bc9fe68db82a8929ea3836c603f3a9b (HEAD -> master)
+Author: Andres G <andres@gmail.com>
+Date:   Thu Jan 6 13:41:39 2022 +0100
+
+    second Commit
+
+commit 264afd3ae3d89aad3d21af237ca2dbde8082e368
+Author: Andres G <andres@gmail.com>
+Date:   Thu Jan 6 13:36:51 2022 +0100
+
+    First Commit
